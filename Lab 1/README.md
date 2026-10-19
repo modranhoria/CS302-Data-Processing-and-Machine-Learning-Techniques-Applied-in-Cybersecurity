@@ -93,4 +93,4 @@ Students should submit:
 1. **Hyperparameter experiments:** compare linear and RBF kernels with `C = 0.1`, `1`, and `10`, and KNN with `k = 3`, `7`, and `11`.
 2. **A metrics comparison** for the rule-based baseline, SVM, and KNN. Include phishing precision, phishing recall, phishing F1-score, and false-positive rate; accuracy and confusion matrices are also reported by the notebook.
 3. **Error analysis:** identify examples of false positives and false negatives from the numeric feature tables, and explain what additional evidence an SOC analyst should request.
-4. **A brief security discussion:** explain why a phishing prediction should not, by itself, trigger a high-impact response such as blocking a domain.
+4. **A brief discussion:** explain why a phishing prediction should not, by itself, trigger a high-impact response such as blocking a domain.
