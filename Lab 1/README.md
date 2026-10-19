@@ -65,7 +65,7 @@ SVM and KNN are trained in pipelines with `StandardScaler`. The scaler is fitted
 - **False-positive rate:** proportion of legitimate URLs incorrectly classified as phishing.
 - **Confusion matrix:** counts of true negatives, false positives, false negatives, and true positives.
 
-False negatives can allow phishing URLs to pass through a defensive control. False positives can generate unnecessary alerts, consume analyst time, or disrupt legitimate activity. The relative cost depends on the operational context, so students should explain the trade-off behind their choice rather than automatically selecting the model with the highest accuracy.
+False negatives can allow phishing URLs to pass through a defensive control. False positives can generate unnecessary alerts, consume analyst time, or disrupt legitimate activity. The relative cost depends on the operational context.
 
 ## Optional extension: evaluation on unseen domains
 
