@@ -92,5 +92,5 @@ Do not deploy the resulting settings or block traffic based solely on the notebo
 Students should submit:
 
 1. **K-Means**: ARI, Silhouette Score and its cluster-composition table.
-2. **DBSCAN**: results for the default setting, including number of clusters, noise fraction, ARI, and the cluster-composition table. The `eps` experiment table and a brief discussion of the 
-4. **A brief discussion:** explain which method you would use as an exploratory tool and what additional evidence you would require before escalating an alert.
+2. **DBSCAN**: results for the default setting, including number of clusters, noise fraction, ARI, and the cluster-composition table.
+
