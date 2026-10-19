@@ -18,7 +18,7 @@ The downloaded records are grouped into two reference labels for evaluation only
 - `0` — normal connection
 - `1` — attack connection
 
-The clustering algorithms do not receive these labels during fitting. They are used only after the clusters have been produced, allowing students to examine agreement between the clusters and the reference labels.
+The clustering algorithms do not receive these labels during fitting. They are used only after the clusters have been produced.
 
 The notebook requests the `SA` subset with `percent10=True`, shuffles it reproducibly, and selects a balanced teaching sample of at most 1,250 normal and 1,250 attack records. It uses these eight numeric features:
 
@@ -72,7 +72,7 @@ If you restart the Colab runtime, run the cells again from the beginning so that
 
 ## Evaluation guidance
 
-Good submissions interpret the metrics and tables rather than merely copying printed numbers. Students should note that cluster IDs are arbitrary, that the noise label `-1` in DBSCAN is not synonymous with an attack, and that a higher ARI alone does not necessarily make a configuration operationally preferable. Their conclusions should be supported by the actual results produced by their run.
+Good submissions interpret the metrics and tables rather than merely copying printed numbers. Please note that cluster IDs are arbitrary, that the noise label `-1` in DBSCAN is not synonymous with an attack, and that a higher ARI alone does not necessarily make a configuration operationally preferable. Their conclusions should be supported by the actual results produced by their run.
 
 ## Limitations and responsible use
 
