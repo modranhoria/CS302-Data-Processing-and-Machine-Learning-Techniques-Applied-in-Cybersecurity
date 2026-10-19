@@ -5,7 +5,11 @@ This lab introduces unsupervised clustering for network intrusion analysis. Stud
 ## Learning objectives
 
 By completing the notebook, students should be able to:
-- 
+- Explain the difference between supervised classification and unsupervised clustering, particularly in the context of network intrusion detection.
+- Apply and compare K-Means and DBSCAN to explore patterns in network-connection data and investigate potential differences between normal and attack traffic.
+- Evaluate and interpret clustering results using the Adjusted Rand Index (ARI), the number of clusters identified, cluster composition, and the proportion of noise points detected by DBSCAN.
+- Analyze the impact of DBSCAN's eps parameter on the number of clusters, the noise fraction, and agreement with the reference labels.
+- Recognize the limitations of clustering-based intrusion detection.
 
 ## Dataset
 
